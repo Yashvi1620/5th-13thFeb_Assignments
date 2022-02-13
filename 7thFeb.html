@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Admission Form</title>
+    </head>
+    <body bgcolor="lavender">
+        <h2> College form</h2>
+        <form action="#">
+            <label for="name">Student name:</label>
+            <div>
+                 <input type="text" placeholder="Enter name" name="myName"  id="name" minlength="3" required>
+            </div>
+            <label for="father">Father name:</label>
+            <div>
+             <input type="text" placeholder="Enter  name" name="myFathername" required id="father" >
+           </div>
+           <label for="mother">Mother Name</label> name:</label>
+           <div>
+         <input type="text" placeholder="Enter name" name="myFathername" required  id="mother">
+           </div>
+          <br>
+             <div>
+                Mobile No: <input type="number" name="myNumber" minlength="10" pattern="[6789] [0-9]{9}" required>
+             </div>
+             <br>
+            <div>
+                Email: <input type="text" name="myEmail" pattern=".+@gmail.com" required>
+                </div> 
+                <br>
+            <div> 
+                DOB: <input type="date" >
+            </div>
+            <br>
+            <div>
+               10th Marks <input type="number" name="myrole" required >
+            </div>
+            <br>
+            <div>
+                12th Marks <input type="number" name="myrole" required>
+             </div>
+             <br>
+            <br>
+            <label for="eligible">Are you Eligibile: ?</label>
+            <div>
+                 <input type="checkbox" name="Eligibity" id="eligible">
+            </div>
+            <br>
+            <div>
+             Gender Male: <input type="radio" name="Gender"> Female <input type="radio" name="Gender"> other<input type="radio" name="Gender">
+             </div>
+             <br>
+             <div>
+                 Write about yourself:<br> <textarea name="Mytext"  cols="10" rows="5"> </textarea required>
+             </div>
+             <div>
+                 <input type="reset" value="Reset Now">
+                  <input type="submit" value="Submit Now">
+             </div>
+         </form>
+        
+        </form>
+    </body>
+</html>

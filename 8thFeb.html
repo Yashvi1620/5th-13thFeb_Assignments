@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geekster</title>
+</head>
+<body bgcolor="lightgreen">
+    <center><h1>Admission Form</h1>
+    <form>
+        <label>Full Name* </label>
+        <input type="text" placeholder="Enter the fullname" name="name" minlength="3" required>
+        <label>Email*</label>
+        <input type="email" placeholder="Enter the email" name="email" pattern=".+@gmail.com" required>
+        <br>
+        <br>
+        <label>Select Course*</label>
+       <label for="Select Course"</label>
+		<select>
+			<option disabled selected>Select Course</option>
+			<option>Full  Stack Web development</option>
+			<option>Advance Web developmet</option>
+		</select><br><br><br>
+        <label>Phone*</label>
+        <input type="number" placeholder="Enter your number" name="number" minlength="10" pattern="[6789] [0-9]{9}" required>
+       <label>Highest Degree*</label>
+		<select name="select_degree" required>
+			<option disabled selected>Select Degree</option>
+			<option>BTECH</option>
+			<option>BE</option>
+			<option>ME</option>
+			<option>MCA</option>
+			<option>BCA</option>
+			<option>OTHER</option>
+		</select><br><br><br>
+       <label>Year of Passing*</label>
+		<select name="select_year" required>
+            <option disabled selected>Select passing year</option>
+			<option>2018</option>
+			<option>2019</option>
+			<option>2020</option>
+			<option>2021</option>
+			<option>2022</option>
+			<option>2023</option>
+		</select>
+        <label>Programming Skills*</label>
+		<select name="select_skills" required>
+		<option disabled selected>Select programming skills</option>
+			<option>Basic coding skills</option>
+			<option>Intermediate cosing skills</option>
+			<option>Good coding skills</option>
+		</select><br><br>
+        <input type="checkbox" name="checkbox" required />By signing up, you agree to the Terms and Conditions of Geekster (QuantumBit technologies Pvt. Ltd)*<br><br>
+            <input type="reset" name="reset" value="Reset" required />
+			<input type="submit" name="smt" value="Submit" required />
+
+    </form>
+	</center>
+</body>
+</html>
